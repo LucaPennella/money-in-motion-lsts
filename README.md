@@ -8,12 +8,13 @@ Reproducible **code & data** for the paper:
 
 > **Money in Motion: Micro‑Velocity and Usage of Ethereum’s Liquid Staking Tokens**
 > Benjamin Kraner, Luca Pennella, Nicolò Vallarano, Claudio J. Tessone (2025)
+> arXiv: 2508.15391 — https://arxiv.org/abs/2508.15391
 
 This repository provides a fully reproducible pipeline to compute **address‑level micro‑velocity** and balance dynamics for Lido’s **stETH (rebasing)** and **wstETH (non‑rebasing)**. It includes:
 
 * Two **open‑source tools** to collect on‑chain data (event logs & historical contract state),
 * A **curated dataset** (ready‑to‑use) with all relevant events,
-* Shell scripts to **run the end‑to‑end pipeline** from raw Ethereum data to the paper’s figures/tables.
+* Scripts to **run the end‑to‑end pipeline** from raw Ethereum data.
 
 > **Data coverage**: events and state snapshots up to **2024‑11‑08** (see the paper for details).
 
