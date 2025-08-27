@@ -23,10 +23,7 @@ This repository provides a fully reproducible pipeline to compute **address‑le
 ## Contents
 
 * [Prerequisites](#prerequisites)
-* [Quickstart](#quickstart)
-
-  * [A) Use the published dataset (fast)](#a-use-the-published-dataset-fast)
-  * [B) Run the full pipeline (from raw data)](#b-run-the-full-pipeline-from-raw-data)
+* Run the full pipeline (from raw data)](#b-run-the-full-pipeline-from-raw-data)
 * [Environment variables](#environment-variables)
 * [Repository structure](#repository-structure)
 * [Outputs](#outputs)
@@ -65,30 +62,7 @@ pip install -e MicroVelocityAnalyzer/
 
 ---
 
-## Quickstart
-
-### A) Use the published dataset (fast)
-
-If you just want to reproduce the results starting from the already published dataset in this repo:
-
-```bash
-# stETH
-bash script/05_stETH_microvelocity.sh
-bash script/09_stETH_postprocess.sh
-
-# wstETH
-bash script/07_wstETH-microvelocity.sh
-bash script/11_wstETH_postprocess.sh
-```
-
-These steps will:
-
-* Preprocess the data into the format expected by `MicroVelocityAnalyzer` (the `.sh` scripts call the corresponding `.py` where needed),
-* Compute micro‑velocity and balances,
-* Aggregate results into tidy outputs ready for analysis.
-
-### B) Run the full pipeline (from raw data)
-
+## Run the full pipeline (from raw data)
 
 1. **Event logs** :
 
