@@ -23,7 +23,7 @@ This repository provides a fully reproducible pipeline to compute **address‑le
 ## Contents
 
 * [Prerequisites](#prerequisites)
-* Run the full pipeline (from raw data)](#b-run-the-full-pipeline-from-raw-data)
+* [Quickstart](#quickstart)
 * [Environment variables](#environment-variables)
 * [Repository structure](#repository-structure)
 * [Outputs](#outputs)
@@ -101,8 +101,8 @@ bash script/11_wstETH_postprocess.sh
 ```
 
 ---
-
-## Scripts reference (what each script does)
+## Quickstart
+### Scripts reference (what each script does)
 
 > Complete index of the scripts under `script/` with role, main inputs, and outputs.
 
