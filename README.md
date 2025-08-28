@@ -173,7 +173,7 @@ bash script/11_wstETH_postprocess.sh
 │   └── variables/          # Raw variable snapshots
 ├── output/                 # Final artefacts (pickles, csv, parquet)
 ├── script/                 # Shell scripts to run the pipeline
-├── Dataset/                # Curated dataset for quick reproduction
+├── Dataset/                # Pointer + small samples; main dataset on OSF (https://osf.io/2mskb/)
 └── README.md
 ```
 
