@@ -3,6 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](#prerequisites)
 [![arXiv](https://img.shields.io/badge/arXiv-2508.15391-B31B1B)](https://arxiv.org/abs/2508.15391)
+[![Data: OSF](https://img.shields.io/badge/Data-OSF-0077B5)](https://osf.io/2mskb/)
+
 
 Reproducible **code & data** for the paper:
 
@@ -13,7 +15,7 @@ Reproducible **code & data** for the paper:
 This repository provides a fully reproducible pipeline to compute **address‑level micro‑velocity** and balance dynamics for Lido’s **stETH (rebasing)** and **wstETH (non‑rebasing)**. It includes:
 
 * Two **open‑source tools** to collect on‑chain data (event logs & historical contract state),
-* A **curated dataset** (ready‑to‑use) with all relevant events,
+* * A **curated dataset** (ready-to-use) with all relevant events, hosted on **OSF**,
 * Scripts to **run the end‑to‑end pipeline** from raw Ethereum data.
 
 > **Data coverage**: events and state snapshots up to **2024‑11‑08** (see the paper for details).
@@ -28,6 +30,7 @@ This repository provides a fully reproducible pipeline to compute **address‑le
 * [Repository structure](#repository-structure)
 * [Outputs](#outputs)
 * [User categories](#user-categories)
+* [Data availability](#data-availability)
 * [Citing](#citing)
 * [License](#license)
 * [Troubleshooting](#troubleshooting)
@@ -191,6 +194,12 @@ Used to aggregate activity by wealth tiers:
 * `high` (≥ 100 stETH; Whale→Fish)
 * `low` (< 100; Shrimp→Plankton)
 * `total` (all)
+
+---
+## Data availability
+
+The curated dataset is hosted on **OSF** for stable, citable access and better handling of large files.  
+https://osf.io/2mskb/
 
 ---
 
