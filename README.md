@@ -8,9 +8,7 @@
 
 Reproducible **code & data** for the paper:
 
-> **Money in Motion: Micro‑Velocity and Usage of Ethereum’s Liquid Staking Tokens**
-> Benjamin Kraner, Luca Pennella, Nicolò Vallarano, Claudio J. Tessone (2025)
-> arXiv: 2508.15391 — https://arxiv.org/abs/2508.15391
+> Kraner, B., Pennella, L., Vallarano, N., & Tessone, C. J. (2025). Money in Motion: Micro‑Velocity and Usage of Ethereum’s Liquid Staking Tokens. In 7th Conference on Advances in Financial Technologies (AFT 2025) (pp. 9-1). Schloss Dagstuhl–Leibniz-Zentrum für Informatik.
 
 This repository provides a fully reproducible pipeline to compute **address‑level micro‑velocity** and balance dynamics for Lido’s **stETH (rebasing)** and **wstETH (non‑rebasing)**. It includes:
 
@@ -210,14 +208,13 @@ If you use this code or dataset, please cite the paper.
 **Paper**
 
 ```bibtex
-@article{kraner2025moneyinmotion,
-  title   = {Money in Motion: Micro-Velocity and Usage of Ethereum’s Liquid Staking Tokens},
-  author  = {Kraner, Benjamin and Pennella, Luca and Vallarano, Nicolò and Tessone, Claudio J.},
-  year    = {2025},
-  eprint  = {2508.15391},
-  archivePrefix = {arXiv},
-  primaryClass = {q-fin.GN},
-  doi     = {10.48550/arXiv.2508.15391}
+@inproceedings{kraner2025money,
+  title={Money in Motion: Micro-Velocity and Usage of Ethereum’s Liquid Staking Tokens},
+  author={Kraner, Benjamin and Pennella, Luca and Vallarano, Nicol{\`o} and Tessone, Claudio J},
+  booktitle={7th Conference on Advances in Financial Technologies (AFT 2025)},
+  pages={9--1},
+  year={2025},
+  organization={Schloss Dagstuhl--Leibniz-Zentrum f{\"u}r Informatik}
 }
 ```
 
